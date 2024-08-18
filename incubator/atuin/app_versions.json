@@ -3,21 +3,18 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/3.0.4",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/3.0.4",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface"
         ],
         "human_version": "18.1.0_3.0.4",
         "version": "3.0.4",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -5300,21 +5297,18 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/3.0.3",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/3.0.3",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface"
         ],
         "human_version": "18.1.0_3.0.3",
         "version": "3.0.3",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -10613,13 +10607,13 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/2.5.18",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/2.5.18",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface"
         ],
         "human_version": "18.1.0_2.5.18",
         "version": "2.5.18",
@@ -10627,7 +10621,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -15579,13 +15572,13 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/2.5.17",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/2.5.17",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/interface",
+            "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
-            "definitions/timezone"
+            "definitions/interface"
         ],
         "human_version": "18.1.0_2.5.17",
         "version": "2.5.17",
@@ -15593,7 +15586,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -20545,14 +20537,14 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/1.0.1",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/1.0.1",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "18.0.1_1.0.1",
         "version": "1.0.1",
@@ -20560,7 +20552,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",
@@ -25554,14 +25545,14 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/1.0.0",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/1.0.0",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "18.0.1_1.0.0",
         "version": "1.0.0",
@@ -25569,7 +25560,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",
@@ -30563,14 +30553,14 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/atuin/0.0.3",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/atuin/0.0.3",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "17.1.0_0.0.3",
         "version": "0.0.3",
@@ -30578,7 +30568,6 @@
             "annotations": {
                 "max_scale_version": "23.10.2",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "system",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",

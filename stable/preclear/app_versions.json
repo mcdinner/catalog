@@ -3,13 +3,13 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/preclear/4.2.0",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/preclear/4.2.0",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/certificate",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "latest_4.2.0",
         "version": "4.2.0",
@@ -17,7 +17,6 @@
             "annotations": {
                 "max_scale_version": "23.10.2",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Productivity",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",

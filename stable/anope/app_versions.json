@@ -1,21 +1,18 @@
 {
-    "6.0.6": {
+    "6.0.9": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/6.0.6",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/6.0.9",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
-        "human_version": "latest_6.0.6",
-        "version": "6.0.6",
+        "human_version": "latest_6.0.9",
+        "version": "6.0.9",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -26,7 +23,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.7",
+                    "version": "23.0.10",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -54,12 +51,12 @@
             ],
             "name": "anope",
             "sources": [
-                "https://thelounge.chat/",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/anope",
-                "https://hub.docker.com/r/ich777/anope"
+                "https://hub.docker.com/r/ich777/anope",
+                "https://thelounge.chat/"
             ],
             "type": "application",
-            "version": "6.0.6"
+            "version": "6.0.9"
         },
         "app_metadata": null,
         "schema": {
@@ -4149,26 +4146,23 @@
             ]
         },
         "app_readme": "<p>Anope is a set of IRC Services designed for flexibility and ease of use.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/anope\">https://truecharts.org/charts/stable/anope</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-        "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as TrueNAS SCALE Apps.\nBoth solutions are fully supported, but we heavily advice the use of normal Helm Charts where possible</p>\n<p>For more information about this Chart, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/anope\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Installation</h2>\n<h3>Helm-Chart installation</h3>\n<p>To install TrueCharts Helm charts using Helm, you can use our OCI Repository.</p>\n<p><code>helm install mychart oci://tccr.io/truecharts/CHARTNAME</code></p>\n<p>For more information on how to install TrueCharts Helm charts, checkout the instructions on the website: https://truecharts.org/helm/</p>\n<h3>TrueNAS SCALE Apps</h3>\n<p>For more information on how to use TrueCharts as TrueNAS SCALE Apps, please checkout the <a href=\"https://truecharts.org/scale/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</p>\n<h2>Configuration Options</h2>\n<p>To view the chart specific options, please view Values.yaml included in the chart.</p>\n<p>All our Charts use a shared \"common\" library chart that contains most of the templating and options.\nFor the complete overview of all available options, please checkout the documentation for them on the website: https://truecharts.org/common/</p>\n<h2>Chart Specific Guides and information</h2>\n<p>All our charts have dedicated documentation pages.\nThe documentation for this chart can be found here:\nhttps://truecharts.org/charts/stable/anope</p>\n<h2>Support</h2>\n<ul>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/general/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
+        "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as TrueNAS SCALE Apps.\nBoth solutions are fully supported, but we heavily advice the use of normal Helm Charts where possible</p>\n<p>For more information about this Chart, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/anope\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Installation</h2>\n<h3>Helm-Chart installation</h3>\n<p>To install TrueCharts Helm charts using Helm, you can use our OCI Repository.</p>\n<p><code>helm install mychart oci://tccr.io/truecharts/CHARTNAME</code></p>\n<p>For more information on how to install TrueCharts Helm charts, checkout the instructions on the website: https://truecharts.org/helm/</p>\n<h3>TrueNAS SCALE Apps</h3>\n<p>For more information on how to use TrueCharts as TrueNAS SCALE Apps, please checkout the <a href=\"https://truecharts.org/scale\">quick-start guides for TrueNAS SCALE</a>.</p>\n<h2>Chart Specific Guides and information</h2>\n<p>All our charts have dedicated documentation pages.\nThe documentation for this chart can be found here:\nhttps://truecharts.org/charts/stable/anope</p>\n<h2>Configuration Options</h2>\n<p>Please note: For TrueNAS SCALE, only options available in the GUI are supported.\nHence most of these docs do not apply to TrueNAS SCALE</p>\n<p>To view the chart specific options, please view Values.yaml included in the chart.\nThe most recent version of which, is available here: https://github.com/truecharts/charts/charts/stable/anope/values.yaml</p>\n<p>All our Charts use a shared \"common\" library chart that contains most of the templating and options.\nFor the complete overview of all available options, please checkout the documentation for them on the website: https://truecharts.org/common/</p>\n<p>For information about the common chart and all defaults included with it, please review its values.yaml file available here: https://github.com/truecharts/library-charts/blob/main/library/common/values.yaml</p>\n<h2>Support</h2>\n<ul>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/general/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
         "changelog": "<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>"
     },
-    "6.0.5": {
+    "6.0.8": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/6.0.5",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/6.0.8",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
-        "human_version": "latest_6.0.5",
-        "version": "6.0.5",
+        "human_version": "latest_6.0.8",
+        "version": "6.0.8",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -4179,7 +4173,7 @@
             "dependencies": [
                 {
                     "name": "common",
-                    "version": "23.0.0",
+                    "version": "23.0.9",
                     "repository": "oci://tccr.io/truecharts",
                     "condition": "",
                     "alias": "",
@@ -4207,12 +4201,12 @@
             ],
             "name": "anope",
             "sources": [
-                "https://thelounge.chat/",
                 "https://github.com/truecharts/charts/tree/master/charts/stable/anope",
-                "https://hub.docker.com/r/ich777/anope"
+                "https://hub.docker.com/r/ich777/anope",
+                "https://thelounge.chat/"
             ],
             "type": "application",
-            "version": "6.0.5"
+            "version": "6.0.8"
         },
         "app_metadata": null,
         "schema": {
@@ -8302,18 +8296,18 @@
             ]
         },
         "app_readme": "<p>Anope is a set of IRC Services designed for flexibility and ease of use.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/anope\">https://truecharts.org/charts/stable/anope</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
-        "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as TrueNAS SCALE Apps.\nBoth solutions are fully supported, but we heavily advice the use of normal Helm Charts where possible</p>\n<p>For more information about this Chart, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/anope\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Installation</h2>\n<h3>Helm-Chart installation</h3>\n<p>To install TrueCharts Helm charts using Helm, you can use our OCI Repository.</p>\n<p><code>helm install mychart oci://tccr.io/truecharts/CHARTNAME</code></p>\n<p>For more information on how to install TrueCharts Helm charts, checkout the instructions on the website: https://truecharts.org/helm/</p>\n<h3>TrueNAS SCALE Apps</h3>\n<p>For more information on how to use TrueCharts as TrueNAS SCALE Apps, please checkout the <a href=\"https://truecharts.org/scale/guides/scale-intro\">quick-start guides for TrueNAS SCALE</a>.</p>\n<h2>Configuration Options</h2>\n<p>To view the chart specific options, please view Values.yaml included in the chart.</p>\n<p>All our Charts use a shared \"common\" library chart that contains most of the templating and options.\nFor the complete overview of all available options, please checkout the documentation for them on the website: https://truecharts.org/common/</p>\n<h2>Chart Specific Guides and information</h2>\n<p>All our charts have dedicated documentation pages.\nThe documentation for this chart can be found here:\nhttps://truecharts.org/charts/stable/anope</p>\n<h2>Support</h2>\n<ul>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/general/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
+        "detailed_readme": "<hr />\n<h2>title: README</h2>\n<h2>General Info</h2>\n<p>TrueCharts can be installed as both <em>normal</em> Helm Charts or as TrueNAS SCALE Apps.\nBoth solutions are fully supported, but we heavily advice the use of normal Helm Charts where possible</p>\n<p>For more information about this Chart, please check the docs on the TrueCharts <a href=\"https://truecharts.org/charts/stable/anope\">website</a></p>\n<p><strong>This chart is not maintained by the upstream project and any issues with the chart should be raised <a href=\"https://github.com/truecharts/charts/issues/new/choose\">here</a></strong></p>\n<h2>Installation</h2>\n<h3>Helm-Chart installation</h3>\n<p>To install TrueCharts Helm charts using Helm, you can use our OCI Repository.</p>\n<p><code>helm install mychart oci://tccr.io/truecharts/CHARTNAME</code></p>\n<p>For more information on how to install TrueCharts Helm charts, checkout the instructions on the website: https://truecharts.org/helm/</p>\n<h3>TrueNAS SCALE Apps</h3>\n<p>For more information on how to use TrueCharts as TrueNAS SCALE Apps, please checkout the <a href=\"https://truecharts.org/scale\">quick-start guides for TrueNAS SCALE</a>.</p>\n<h2>Chart Specific Guides and information</h2>\n<p>All our charts have dedicated documentation pages.\nThe documentation for this chart can be found here:\nhttps://truecharts.org/charts/stable/anope</p>\n<h2>Configuration Options</h2>\n<p>Please note: For TrueNAS SCALE, only options available in the GUI are supported.\nHence most of these docs do not apply to TrueNAS SCALE</p>\n<p>To view the chart specific options, please view Values.yaml included in the chart.\nThe most recent version of which, is available here: https://github.com/truecharts/charts/charts/stable/anope/values.yaml</p>\n<p>All our Charts use a shared \"common\" library chart that contains most of the templating and options.\nFor the complete overview of all available options, please checkout the documentation for them on the website: https://truecharts.org/common/</p>\n<p>For information about the common chart and all defaults included with it, please review its values.yaml file available here: https://github.com/truecharts/library-charts/blob/main/library/common/values.yaml</p>\n<h2>Support</h2>\n<ul>\n<li>See the <a href=\"https://truecharts.org\">Website</a></li>\n<li>Check our <a href=\"https://discord.gg/tVsPTHWTtr\">Discord</a></li>\n<li>Open a <a href=\"https://github.com/truecharts/charts/issues/new/choose\">issue</a></li>\n</ul>\n<hr />\n<h2>Sponsor TrueCharts</h2>\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/general/sponsor\">donation</a> or contributing back to the project any way you can!</p>\n<p><em>All Rights Reserved - The TrueCharts Project</em></p>",
         "changelog": "<p><em>for the complete changelog, please refer to the website</em></p>\n<p><strong>Important:</strong></p>"
     },
     "5.8.14": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/5.8.14",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/5.8.14",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "latest_5.8.14",
         "version": "5.8.14",
@@ -8321,7 +8315,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -12131,11 +12124,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/5.8.13",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/5.8.13",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "latest_5.8.13",
         "version": "5.8.13",
@@ -12143,7 +12136,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -15953,14 +15945,14 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/4.3.0",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/4.3.0",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "latest_4.3.0",
         "version": "4.3.0",
@@ -15968,7 +15960,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",
@@ -19945,14 +19936,14 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/stable/anope/4.2.0",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/stable/anope/4.2.0",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
+            "definitions/timezone",
+            "definitions/gpuConfiguration",
             "definitions/interface",
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
-            "definitions/gpuConfiguration"
+            "definitions/certificate"
         ],
         "human_version": "latest_4.2.0",
         "version": "4.2.0",
@@ -19960,7 +19951,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "Network-Other",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.12",

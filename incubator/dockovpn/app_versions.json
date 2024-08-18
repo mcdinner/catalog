@@ -3,11 +3,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/dockovpn/0.0.3",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/dockovpn/0.0.3",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0_0.0.3",
         "version": "0.0.3",
@@ -15,7 +15,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "networking",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -4936,11 +4935,11 @@
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/work/catalog/catalog/incubator/dockovpn/0.0.2",
-        "last_update": "2024-05-19 13:45:29",
+        "location": "/home/runner/_work/catalog/catalog/incubator/dockovpn/0.0.2",
+        "last_update": "2024-05-29 12:35:14",
         "required_features": [
-            "definitions/certificate",
-            "definitions/timezone"
+            "definitions/timezone",
+            "definitions/certificate"
         ],
         "human_version": "1.14.0_0.0.2",
         "version": "0.0.2",
@@ -4948,7 +4947,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "networking",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
